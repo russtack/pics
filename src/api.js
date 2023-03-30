@@ -6,11 +6,11 @@ const searchImages = async () => {
       Authorization: "Client-ID kUxmpRW1v7T4weALbJU7VUYsth4AfA7oE4SqwwPawMc",
     },
     params: {
-      query: "car",
+      query: "girls",
     },
   });
-  console.log(response);
-  return response;
+
+  return response.data.results;
 };
 
 export default searchImages;
